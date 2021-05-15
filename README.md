@@ -5,19 +5,19 @@ It is associated with a legend of a Hindu temple where the puzzle was supposedly
 
 ---
 
-Objective. 
+## Objective. 
 To build a digital 3 disk tower through Javascript, CSS and HTML.
 
 ---
 
-Code Styles. 
+## Code Styles. 
 HTML
 JavaScript
 CSS
 
 ---
 
-Game Instructions: Tower of Hanoi has 3 easy to follow rules:
+## Game Instructions: Tower of Hanoi has 3 easy to follow rules:
 
 1. Only one block can be moved at a time.
 2. Every move involves taking the top block from one of the stacks and placing it on top of another stack.
@@ -25,10 +25,10 @@ Game Instructions: Tower of Hanoi has 3 easy to follow rules:
 
 ---
 
-Wireframes. 
+##Wireframes. 
 
 ---
 
-Bugs to be fixed. 
+##Bugs to be fixed. 
 
 
