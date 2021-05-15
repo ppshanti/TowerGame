@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tower of Hanoi</title>
+    <link rel="stylesheet" href="style.css">
+    <style>table{background-image: url('./checkers.png');}</style>
+    <style>body{background-image: url('./world_towers_of_hanoi_brainteasers.png');background-repeat: no-repeat; background-attachment: fixed;
+        background-size: cover;}</style>
+    <!--style>img{background-image: url('./towerwsunset.jpeg');background-repeat: no-repeat; background-attachment: fixed;
+            background-size: cover;}</style-->
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+            <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+           <!--@keyframes wonannimation{
+                animation-direction: alternate;
+                animation-duration: 4s;
+            }
+            .won{
+                color: crimson;
+                opacity: 1;
+                animation-name: wonannimation;
+            }--> 
+</head>
+<body>
+    <a id="top"></a>
+    <br/>
+    <h1>Tower of Hanoi</h1>
+    <br/>
+    <br/>
+    <!--img id="img1" src="tower.jpg"></img-->
+    <br/>
+    <a id="play" href="#instructions">Play</a>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>  
+    <br/> 
+    <a id="his" href="#history">Insterested in Hanoi History ?</a>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <h2 id="instructions">Game Instructions</h2>
+    <p>The goal of the puzzle is to move all the disks from the leftmost peg to the
+        rightmost peg, adhering to the following rules:
+        <br/>
+        1. Move only one disk at a time.
+        <br/>
+        2. A larger disk may not be placed on top of a smaller disk.
+        <br/>
+        3. All disks, except the one being moved, must be on a peg.</p>
+    <p id="level"> <a onclick="startGame()">Click start</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Level 1  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span id="timer">Timer: 0</span></p>
+    <p class="won">Hurray you WON !!!!</p>
+    <table id="td">
+        <thead>
+            <tr>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="td"  ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <div class="buttondiv" id="tower1">
+                       
+                       <img id="1" class="class1" data-value="10" src="./Greendisk1.png  " draggable="true" ondragstart="drag(event)" alt="Disk 1" width="250" height="200"></img> 
+                       <img id="2" class="class2" data-value="20" src="BlueDisk2.png" draggable="true" ondragstart="drag(event)" alt="Disk 2" width="300" height="200"></img> 
+                       <img id="3" class="class3" data-value="30" src="yellowdisk3.png" draggable="true" ondragstart="drag(event)" alt="Disk 3" width="350" height="200"></img> 
+                    </div>
+                </td>
+                <td class="td" ondrop="drop(event)" ondragover="allowDrop(event)">Tower 2
+                    <div id="tower2" ></div>
+                </td>
+                <td class="td"  ondrop="drop(event)" ondragover="allowDrop(event)">Tower 3
+                    <div ondrop="drop(event)" ondragover="allowDrop(event)" id="tower3">
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <div id="history">
+        <p id="his">History of game Hanoi</p>
+        <div id="imgcontainer">
+            <img src="Edouard.jpeg">
+            <div class="edouard">Edouard Lucas (1841-1891)</div>
+            <img src="orgincopy.gif">
+            <div class="edouard">Original Copy of "Tower of Hanoi"</div>
+            <br/>
+            <br/>
+            <img src="Toweranimation.gif">
+            <div class="towerani">Animation of game Tower of Hanoi</div>
+        </div>
+        
+        <p>The Tower of Hanoi is widely believed to have been invented in 1883 by the French mathematician Édouard Lucas, though his role in its invention has been disputed. Ever popular, made of wood or plastic, the Tower of Hanoi can be found in toy shops around the world.
+            The tower of Hanoi (also called the tower of Brahma or the Lucas tower) was invented by a French mathematician Édouard Lucas in the 19th century. It is associated with a legend of a Hindu temple where the puzzle was supposedly used to increase the mental discipline of young priests.
+            <br/>
+            <span>How is the games logic useful to us ?</span>&nbsp;
+            <br/>
+            The Tower of Hanoi is also used as a backup rotation scheme when performing computer data backups where multiple tapes/media are involved. As mentioned above, the Tower of Hanoi is popular for teaching recursive algorithms to beginning programming students.
+           <br/>
+            <a href="#top">Scroll to top</a>   
+        </p>
+    </div>
+    <script src="app.js"></script>
+</div>
+</body>
+</html>

@@ -1,0 +1,140 @@
+/* Soft scorll page*/
+html { scroll-behavior: smooth; }
+
+h1{
+    color:black;
+    font-weight: 1000;
+    font-size: 5em;
+    font-style: italic;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-weight: 900;
+    color:black;
+    font-size: 3em;
+    font-style: italic;
+    font-family:'Times New Roman', Times, serif;
+}
+p{
+    color:black;
+    font-size: 3em;
+    text-align: center;
+    font-style: italic;
+    font-family:'Times New Roman', Times, serif;
+}
+a{
+    font-family:'Times New Roman', Times, serif;
+}
+
+#img1{
+   opacity: 1;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 40%;
+}
+td{
+    vertical-align: bottom;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 500px;
+    min-height: 1000px;
+    color: rgb(48, 105, 105);
+   
+    border:mediumblue;
+    border-style: double;
+}
+.buttondiv{
+    vertical-align: bottom;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.class1{
+    width: 50%;
+    display: block;
+    position: relative;
+    align-items: center;
+    cursor: pointer;
+    margin:0 auto;
+
+}
+.class2{
+    position: relative;
+    display: block;
+    width: auto;
+    margin:0 auto;
+    cursor: pointer;
+ 
+
+}
+.class3{
+    display: block;
+    width: auto;
+    margin:0 auto;
+    position: relative;
+    cursor: pointer;
+
+}
+
+#play{
+    color: black;
+    font-weight: 300;
+    text-align: center;
+    display: block;
+    font-style: italic;
+    font-size: 4em;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#his{
+    color: black;
+    text-align: center;
+    display: block;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 4em;
+    font-family:'Times New Roman', Times, serif;
+}
+#history, #his{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 300;
+    color: black;
+}
+
+#level{
+    display: block;
+    align-items: center;
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 2em;
+}
+
+#tower1, #tower2, #tower3{
+    min-width: 500px;
+    min-height: 600px;
+    vertical-align: bottom;
+}
+#imgcontainer {
+    position: relative;
+    text-align: center;
+    color: black;
+  }
+
+#edouard{
+    font-size: 3em;
+    position: absolute;
+    color: black;
+    bottom: 8px;
+    left: 16px;
+}
+
+.won{
+    color: crimson;
+    opacity: 0;
+    animation-name: wonannimation;
+}
