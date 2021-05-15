@@ -17,7 +17,8 @@ CSS
 
 ---
 
-## Game Instructions: Tower of Hanoi has 3 easy to follow rules:
+## Game Instructions: 
+Tower of Hanoi has 3 easy to follow rules:
 
 1. Only one block can be moved at a time.
 2. Every move involves taking the top block from one of the stacks and placing it on top of another stack.
@@ -25,10 +26,10 @@ CSS
 
 ---
 
-##Wireframes. 
+## Wireframes. 
 
 ---
 
-##Bugs to be fixed. 
+## Bugs to be fixed. 
 
 
