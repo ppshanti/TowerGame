@@ -9,6 +9,10 @@ It is associated with a legend of a Hindu temple where the puzzle was supposedly
 To build a digital 3 disk tower through Javascript, CSS and HTML.
 
 ---
+## Game
+![image](https://user-images.githubusercontent.com/80429446/118365220-a1b5f600-b550-11eb-92ce-7d8a82bce995.png)
+
+---
 
 ## Code Styles. 
 HTML
